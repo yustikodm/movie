@@ -6986,6 +6986,7 @@
         "filp/whoops",
         "fzaninotto/faker",
         "hamcrest/hamcrest-php",
+        "heroku/heroku-buildpack-php",
         "mockery/mockery",
         "myclabs/deep-copy",
         "nunomaduro/collision",

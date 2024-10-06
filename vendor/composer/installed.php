@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0e343dff4b2ae36875a851d2dd7d760a352a85f8',
+        'reference' => '24e841802326fad20bf5cacfb60a954da58e012f',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -173,7 +173,7 @@
             'install_path' => __DIR__ . '/../heroku/heroku-buildpack-php',
             'aliases' => array(),
             'reference' => '60dd468633b4b7f294285fedad0eac68b7d77c6c',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'illuminate/auth' => array(
             'dev_requirement' => false,
@@ -376,7 +376,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0e343dff4b2ae36875a851d2dd7d760a352a85f8',
+            'reference' => '24e841802326fad20bf5cacfb60a954da58e012f',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
