@@ -11,12 +11,12 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^7.9",
-        "heroku/heroku-buildpack-php": "^257.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "laravel/ui": "1.0"
     },
     "require-dev": {
+        "heroku/heroku-buildpack-php": "^257.0",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
