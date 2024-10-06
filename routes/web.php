@@ -18,9 +18,7 @@ use App\Http\Controllers\MovieController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return "Welcome to My Laravel App"; // Simple text response for testing
-});
+Route::get('/', [HomeController::class, 'index']); // Redirect root to /movies
 Route::get('/home', [HomeController::class, 'index']);
 
 Auth::routes();
