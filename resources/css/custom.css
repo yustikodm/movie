@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+h1 {
+    color: #343a40; /* Darker text color for headers */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.favorite-btn {
+    margin-top: 10px;
+}
