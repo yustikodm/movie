@@ -1204,6 +1204,54 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v257",
+            "version_normalized": "257.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "60dd468633b4b7f294285fedad0eac68b7d77c6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/60dd468633b4b7f294285fedad0eac68b7d77c6c",
+                "reference": "60dd468633b4b7f294285fedad0eac68b7d77c6c",
+                "shasum": ""
+            },
+            "time": "2024-09-27T16:46:12+00:00",
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v257"
+            },
+            "install-path": "../heroku/heroku-buildpack-php"
+        },
+        {
             "name": "laravel/framework",
             "version": "v5.8.38",
             "version_normalized": "5.8.38.0",
