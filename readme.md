@@ -7,7 +7,7 @@ This is a simple movie application built with Laravel 5.8 that integrates with t
 - **Framework**: Laravel 5.8
 - **Frontend**: Blade
 - **Backend**: PHP 7.4
-- **Database**: MySQ
+- **Database**: MySQL
 - **Build Tool**: Laravel Mix (Webpack)
 - **API**: OMDb API for fetching movie data
 
