@@ -34,26 +34,20 @@ This is a simple movie application built with Laravel 5.8 that integrates with t
 ## Setup Instructions
 
 1. ** Clone the repository **
-
 Clone the repository from GitHub:
-
-```bash
-git clone https://github.com/yustikodm/movie.git movie-app
-cd movie-app
+    ```bash
+    git clone https://github.com/yustikodm/movie.git movie-app
+    cd movie-app
 
 2. ** Install dependencies **
-
 Install PHP dependencies using Composer:
-
-```bash
-composer install
+    ```bash
+    composer install
 
 3. ** Set up environment variables **
-
 Copy the .env.example file to create a new .env file:
-
-```bash
-cp .env.example .env
+    ```bash
+    cp .env.example .env
 
 Open the .env file and configure the following variables based on your environment:
 
@@ -67,33 +61,25 @@ DB_USERNAME: Your database username
 DB_PASSWORD: Your database password
 
 4. ** Generate application key **
-
 Run the following command to generate an application key:
-
-```bash
-php artisan key:generate
+    ```bash
+    php artisan key:generate
 
 5. ** Run database migrations **
-
 To create the necessary database tables, run the migrations and db:seed (but dont forget change the credentials in app seeder):
-
-```bash
-php artisan migrate
-php artisan db:seed
+    ```bash
+    php artisan migrate
+    php artisan db:seed
 
 6. ** Set file permissions **
-
 Ensure the storage and bootstrap/cache directories have the correct permissions:
-
-```bash
-chmod -R 775 storage
-chmod -R 775 bootstrap/cache
+    ```bash
+    chmod -R 775 storage
+    chmod -R 775 bootstrap/cache
 
 7. ** Start the development server **
-
 Run the following command to start the Laravel development server:
 By default, the application will be available at http://localhost:8000.
-
-```bash
-php artisan serve
+    ```bash
+    php artisan serve
 
